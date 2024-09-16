@@ -9,7 +9,7 @@ expecting to show similar results with Monkeypox diagnosis. This study investiga
 Deep Neural Networks (DNNs) to diagnose monkeypox from skin lesion images, leveraging 
 Transfer Learning to overcome data scarcity. The performance of the developed models was evaluated using four metrics. Our results 
 consistently showed that DenseNet121 outperformed the other models in terms of all metrics 
-in both scenarios with 88.9% and 75.9% accuracy on test data. While different studies may 
+when pre-trained with ImageNet dataset showed 88.9% accuracy and with HAM10000 dataset showed 75.9% accuracy on test data. While different studies may 
 have outperformed others in specific evaluation metrics, our modified DenseNet201 exhibited 
 superior performance in terms of recall and F1-Score for both source datasets.
 Additionally, the application of explainable AI 
@@ -17,4 +17,5 @@ techniques, such as LRP, will be explored to be able to explain the model's pred
 Explainable AI (XAI) plays a significant role in healthcare by improving the transparency, 
 interpretability, and trustworthiness of AI models, leading to better decision-making and patient 
 diagnosis.
+
 Link to video presentation : https://drive.google.com/drive/folders/1__gGoFGY7VhYL_IGG8xfmvZEhUADRxCW?usp=sharing
